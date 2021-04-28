@@ -28,7 +28,7 @@ This test code has 3 send routines,
 3) Sensor data is sent, in the default case every hour...
 
 We also has support for a periodic re-join.
- After moving from V2 to V3 on TTN, it became clear that the devices 
+ After moving from V2 to V3 on TTN, it became clear that devices 
  need to re-join from time to time to support future moves or changes in 
  the nework or TTN.
 
