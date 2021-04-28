@@ -47,7 +47,7 @@ LoRaWan keys, frequency tables, timming of send function etc...
 
 The radio-modem has an EEProm that will keep most of its parameters stored after
 a reboot... config.h has a define that that will diable re-setting parameters
-in the modee if there are not needed.
+in the modem if there is no need to reset them.
 
 debug1 and debug2 macros can be disabled to remove all debug output to the serial port, 
 they allow us to use the more common "C" printf(...) function in our code instead of 
