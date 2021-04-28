@@ -1,4 +1,4 @@
-# RHF0M062-RHF0M0E5 Examples
+# RHF0M062, RHF0M0E5 Examples
  
 This is a basic framework for using the Rising HF LoRaWan radio-modem and connecting a sensor
 to a LoRaWan network like TTN.
