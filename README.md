@@ -1,7 +1,7 @@
 # RHF0M062, RHF0M0E5 Examples
  
-This is a basic framework for using the Rising HF LoRaWan radio-modem and connecting a sensor
-to a LoRaWan network like TTN.
+This is a basic Arduino framework for using the Rising HF LoRaWan radio-modem and connecting 
+a sensor to a LoRaWan network like TTN.
 
 We use a I2C FRAM device at address 0x50 for non-volatile memory. This device can be omitted
 or replaces with an EEProm with minor changes.
