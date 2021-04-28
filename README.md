@@ -17,6 +17,26 @@ and other derivatives modules from Rising HF.
 
 http://www.risinghf.com/home
 
+My test code has 3 send routines,
 
+1) Short status is used for error messages and is limited to 9 bytes, 
+   Sent only when we start up and when we have an error... 
+   (DR0 --> 11 bytes - 2 possible MAC bytes)
+
+2) Status is sent infrequently with device information.. version, compile-time, etc...
+
+3) Sensor data is sent, in the default case every hour...
+
+We also has support for a periodic re-join.
+ After moving from V2 to V3 on TTN, it became clear that the devices 
+ need to re-join from time to time to support future moves or changes in TTN.
+
+This codebase also allows for a few download messages to be processed.
+
+TBD:
+   Adding some logging to flash
+   look at over-the-air code upgrade...
+   Add support for EEProm to replace FRAM
+   Get DEVEUI from modem and or UUID from CPU
 
 
