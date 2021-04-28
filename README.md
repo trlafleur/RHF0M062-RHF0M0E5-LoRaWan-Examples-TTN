@@ -32,7 +32,7 @@ We also has support for a periodic re-join.
  need to re-join from time to time to support future moves or changes in 
  the nework or TTN.
 
-This codebase also allows for a few download messages to be processed.
+This code base also allows for a few download messages to be processed.
 
 On startup, the code reads a data block stored in FRAM (if available) and compares
 the compile date-time field and CRC to what is stored in FRAM to see if we have a 1st boot. 
