@@ -6,9 +6,8 @@ a sensor to a LoRaWan network like TTN.
 We use a I2C FRAM device at address 0x50 for non-volatile memory. This device can be omitted
 or replaces with an EEProm with minor changes.
 
-DEVEUI is from an I2C 24AA025E64 chip at address 0x52 or can be set in the config.h file.
-The SAMD-M0 processor has a 64bit UUID that could also be use for DEVEUI or the one that's 
-pre loaded in the RHF modem. Each modem has a QR code on the top, with its DEVEUI.
+DEVEUI is from the radio-modem or via an I2C 24AA025E64 chip at address 0x52 or can be set in the config.h file.
+Each modem has a QR code on the top, with its DEVEUI.
 
 This code base was developed and tested for USA TTN frequency band, but can be changed to other bands.
 
