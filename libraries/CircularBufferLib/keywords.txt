@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map CircularBuffer
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+CircularBuffer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+Last	KEYWORD2
+First KEYWORD2
+Add	KEYWORD2
+Insert	KEYWORD2
+RemoveFirst	KEYWORD2
+RemoveLast	KEYWORD2
+ExtractFirst	KEYWORD2
+ExtractLast	KEYWORD2
+ReplaceFirst	KEYWORD2
+ReplaceLast	KEYWORD2
+ReplaceAt	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

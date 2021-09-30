@@ -1,0 +1,7 @@
+Stopwatch KEYWORD1
+startNewTimer() KEYWORD2
+getElapsedMillis() KEYWORD2
+getElapsedMicros() KEYWORD2
+pauseTimer() KEYWORD2
+resumeTimer() KEYWORD2
+isPaused() KEYWORD2
